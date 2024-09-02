@@ -92,7 +92,7 @@ class _SignupState extends State<Signup> {
                         ],
                       ),
                       Mytextform(
-                          controller: passwordcotroller,
+                          controller: confirmpawssword,
                           hinttext: "confirm your password",
                           iconData: Icons.lock),
                       Mymaterialbutton(

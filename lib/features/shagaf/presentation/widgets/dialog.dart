@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:shagaf2/core/constants/colors.dart';
 import 'package:shagaf2/core/constants/imagelinks.dart';
+import 'package:shagaf2/core/functions/navigate.dart';
 import 'package:shagaf2/core/strings/string.dart';
+import 'package:shagaf2/features/shagaf/presentation/pages/homepage.dart';
 import 'package:shagaf2/features/shagaf/presentation/widgets/mytext.dart';
 
 class mydailog extends StatelessWidget {
@@ -40,6 +42,7 @@ class mydailog extends StatelessWidget {
               child: MaterialButton(
                   onPressed: () {
                     Navigator.of(context).pop();
+                    navigate(context, () => Homepage());
                   },
                   color: green,
                   child: Padding(

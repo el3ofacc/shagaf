@@ -20,7 +20,7 @@ class Myapp extends StatelessWidget {
           create: (context) => ShagafBloc(),
         ),
       ],
-      child: MaterialApp(home: Splashscreen(),
+      child: MaterialApp(home: Homepage(),
       theme: Appthem().themeData,
       debugShowCheckedModeBanner: false,),
     );

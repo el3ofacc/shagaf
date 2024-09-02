@@ -44,9 +44,9 @@ class Mypageview extends StatelessWidget {
                               fontWeight: null))
                     ],
                   ),
-                  SizedBox(
-                    height: size.width / 9.8,
-                  ),
+                  // SizedBox(
+                  //   height: size.width / 9.8,
+                  // ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
